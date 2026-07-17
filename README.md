@@ -1,15 +1,38 @@
-# ship-simulator-oose-curtin
+# Ship Simulator – Curtin OOSE (2026 S1)
 
-This is my assignment submission for 2026 S1 Curtin OOSE.
+This repository contains my submission for the **2026 Semester 1 Curtin University Object-Oriented Software Engineering (OOSE)** assignment.
 
-The program features a real-time simulation of a lake where ships carry out tasks, moving from port to port while storms threaten to disable or destroy them.
+The application is a real-time simulation of a lake where ships travel between ports, complete transport tasks, and respond dynamically to storms that can damage or destroy them.
 
-Made in Java with Object-Oriented Design patterns such as Command, Strategy, Observer and State patterns.
+## Features
 
-Features use of object factories and Java generics.
+- Real-time ship simulation
+- Dynamic weather and storm events
+- Port-to-port task management
+- Object-oriented architecture using:
+  - Command Pattern
+  - Strategy Pattern
+  - Observer Pattern
+  - State Pattern
+- Factory-based object creation
+- Java Generics
+- Built with Gradle
 
-To run use gradle
+## Technologies
 
-'''
-bash gradlew run
-'''
+- Java
+- Gradle
+
+## Running the Project
+
+Clone the repository and run:
+
+```bash
+./gradlew run
+```
+
+On Windows:
+
+```bash
+gradlew.bat run
+```
