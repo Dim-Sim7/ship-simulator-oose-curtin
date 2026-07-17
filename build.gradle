@@ -1,0 +1,50 @@
+plugins {
+    id "java"
+    id "application"
+    id "pmd"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter:5.14.2"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+application {
+    mainClass = "edu.curtin.app.ShipSimulation"
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-Xlint:all,-serial"
+}
+
+tasks.named("run") {
+    standardInput = System.in
+    systemProperties["java.util.logging.config.file"] = "logging.properties"
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+    testLogging {
+        events "failed"
+        showStandardStreams = true
+        exceptionFormat     = "full"
+    }
+}
+
+pmd {
+    consoleOutput = true
+    toolVersion = "7.21.0"
+    rulesMinimumPriority = 5
+    ruleSets = []
+    ruleSetFiles = files("oose-pmd-rules.xml")
+}

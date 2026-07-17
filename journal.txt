@@ -1,0 +1,1560 @@
+=== Simulation Start ===
+SCENARIO message: port B 19 0
+SCENARIO message: ship 16 10 13
+SCENARIO message: port K 11 0
+SCENARIO message: port N 18 0
+SCENARIO message: port T 35 26
+SCENARIO message: ship 1 8 26
+SCENARIO message: port AX 0 31
+SCENARIO message: ship 6 8 14
+SCENARIO message: port AD 35 5
+SCENARIO message: port O 12 0
+SCENARIO message: port AB 35 33
+SCENARIO message: port AW 0 5
+SCENARIO message: port AY 0 23
+SCENARIO message: port E 10 0
+SCENARIO message: port F 35 0
+SCENARIO message: port BE 0 16
+SCENARIO message: port L 25 0
+SCENARIO message: port AP 26 37
+SCENARIO message: ship 0 15 8
+SCENARIO message: port J 24 0
+SCENARIO message: port I 5 0
+SCENARIO message: port AU 0 1
+SCENARIO message: port AJ 35 23
+SCENARIO message: port C 22 0
+SCENARIO message: ship 3 35 4
+SCENARIO message: port AF 35 22
+SCENARIO message: port W 35 14
+SCENARIO message: port AE 35 17
+SCENARIO message: port BA 0 18
+SCENARIO message: port Z 35 35
+SCENARIO message: port H 31 0
+SCENARIO message: ship 12 3 37
+SCENARIO message: port A 13 0
+SCENARIO message: port U 35 9
+SCENARIO message: port AM 15 37
+SCENARIO message: port AI 35 3
+SCENARIO message: ship 5 10 22
+SCENARIO message: port AS 13 37
+SCENARIO message: port M 15 0
+SCENARIO message: ship 7 19 32
+SCENARIO message: port AC 35 18
+SCENARIO message: port AK 4 37
+SCENARIO message: ship 14 19 1
+SCENARIO message: port BC 0 24
+SCENARIO message: port AZ 0 9
+SCENARIO message: port AH 35 28
+SCENARIO message: port BF 0 20
+SCENARIO message: port R 4 0
+SCENARIO message: port AL 11 37
+SCENARIO message: ship 15 20 13
+SCENARIO message: port AQ 9 37
+SCENARIO message: port BB 0 12
+SCENARIO message: port BG 0 30
+SCENARIO message: ship 10 0 31
+SCENARIO message: port AO 12 37
+SCENARIO message: port G 21 0
+SCENARIO message: ship 9 32 30
+SCENARIO message: port BD 0 25
+SCENARIO message: port AR 3 37
+SCENARIO message: port Y 35 30
+SCENARIO message: port AV 0 6
+SCENARIO message: port D 23 0
+SCENARIO message: ship 13 2 23
+SCENARIO message: ship 2 25 11
+SCENARIO message: port P 9 0
+SCENARIO message: port AA 35 7
+SCENARIO message: port AT 0 3
+SCENARIO message: port Q 34 0
+SCENARIO message: ship 11 13 29
+SCENARIO message: port S 35 25
+SCENARIO message: port X 35 21
+SCENARIO message: ship 4 17 23
+SCENARIO message: port AG 35 32
+SCENARIO message: port V 35 4
+SCENARIO message: port AN 19 37
+SCENARIO message: ship 8 8 24
+
+--- Hour 1 ---
+SCENARIO message: supply 3336 timber AL X
+Supply run ACCEPTED for ship 16 Supply: shipping 3336 tonnes of timber from port AL to port X
+
+--- Hour 2 ---
+
+--- Hour 3 ---
+SCENARIO message: supply 3243 cotton A E
+Supply run ACCEPTED for ship 1 Supply: shipping 3243 tonnes of cotton from port A to port E
+
+--- Hour 4 ---
+
+--- Hour 5 ---
+SCENARIO message: supply pB)OtDrhd
+
+--- Hour 6 ---
+SCENARIO message: storm 7 15 6
+
+--- Hour 7 ---
+STORM HIT: ship 16 at storm radius 6 - TOOK DAMAGE
+STORM HIT: ship 6 at storm radius 6 - TOOK DAMAGE
+
+--- Hour 8 ---
+REPAIR at port tasked for ship 6
+
+--- Hour 9 ---
+
+--- Hour 10 ---
+
+--- Hour 11 ---
+SCENARIO message: storm 33 31 18
+
+--- Hour 12 ---
+STORM HIT: ship 7 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 4 at storm radius 18 - TOOK DAMAGE
+SCENARIO message: supply 3227 striped-paint J V
+Supply run ACCEPTED for ship 0 Supply: shipping 3227 tonnes of striped-paint from port J to port V
+
+--- Hour 13 ---
+REPAIR at port tasked for ship 7
+REPAIR at port tasked for ship 9
+REPAIR at port tasked for ship 4
+SCENARIO message: ship -34 AL U&qhYs)X D?
+
+--- Hour 14 ---
+SCENARIO message: ship naR
+SCENARIO message: ship MU}){O 76 -59 AX V -15 >J &=nw(XHx:s AB K 97 AQ Yd{>? [) C 14 lYNLzQ
+
+--- Hour 15 ---
+
+--- Hour 16 ---
+ENTER PORT: ship 6 at port BB [repair]
+TASK completed by ship 6: Repaired at port: BB
+ENTER PORT: ship 9 at port Y [repair]
+TASK completed by ship 9: Repaired at port: Y
+SCENARIO message: AZ -9 AN -11 94 y &k"
+
+--- Hour 17 ---
+SCENARIO message: supply 2847 rye AI AB
+Supply run ACCEPTED for ship 6 Supply: shipping 2847 tonnes of rye from port AI to port AB
+SCENARIO message: supply 4835 striped-paint AP AX
+Supply run ACCEPTED for ship 3 Supply: shipping 4835 tonnes of striped-paint from port AP to port AX
+SCENARIO message: supply 2212 chlorine-trifluoride W AH
+Supply run ACCEPTED for ship 12 Supply: shipping 2212 tonnes of chlorine-trifluoride from port W to port AH
+
+--- Hour 18 ---
+EXIT PORT: ship 6 from port BB
+ENTER PORT: ship 7 at port AN [repair]
+TASK completed by ship 7: Repaired at port: AN
+
+--- Hour 19 ---
+
+--- Hour 20 ---
+
+--- Hour 21 ---
+ENTER PORT: ship 0 at port J [loading 3227 tonnes of striped-paint]
+SCENARIO message: storm 26 21 16
+
+--- Hour 22 ---
+STORM HIT: ship 3 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 15 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 2 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 11 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 4 at storm radius 16 - TOOK DAMAGE
+
+--- Hour 23 ---
+REPAIR at port tasked for ship 15
+REPAIR at port tasked for ship 9
+REPAIR at port tasked for ship 2
+REPAIR at port tasked for ship 11
+
+--- Hour 24 ---
+
+--- Hour 25 ---
+ENTER PORT: ship 16 at port AL [loading 3336 tonnes of timber]
+SCENARIO message: supply 1987 wheat AG BC
+Supply run ACCEPTED for ship 5 Supply: shipping 1987 tonnes of wheat from port AG to port BC
+SCENARIO message: storm 22 36 9
+SCENARIO message: storm 4 19 13
+
+--- Hour 26 ---
+STORM HIT: ship 7 at storm radius 9 - TOOK DAMAGE
+DISABLED ship ID: 4 -- at position (15, 36)
+RESCUE ASSIGNED: diverting ship 16 to rescue ship 4
+STORM HIT: ship 4 at storm radius 9 - DISABLED
+STORM HIT: ship 12 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 5 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 10 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 13 - TOOK DAMAGE
+
+--- Hour 27 ---
+EXIT PORT: ship 16 from port AL
+EXIT PORT: ship 0 from port J
+REPAIR at port tasked for ship 7
+REPAIR at port tasked for ship 10
+REPAIR at port tasked for ship 13
+REPAIR at port tasked for ship 8
+
+--- Hour 28 ---
+SCENARIO message: K n.7'fXF<
+SCENARIO message: storm 20 0 11
+
+--- Hour 29 ---
+ENTER PORT: ship 1 at port A [loading 3243 tonnes of cotton]
+ENTER PORT: ship 13 at port AY [repair]
+TASK completed by ship 13: Repaired at port: AY
+STORM HIT: ship 1 at storm radius 11 - TOOK DAMAGE
+STORM HIT: ship 6 at storm radius 11 - TOOK DAMAGE
+STORM HIT: ship 0 at storm radius 11 - TOOK DAMAGE
+STORM HIT: ship 14 at storm radius 11 - TOOK DAMAGE
+STORM HIT: ship 15 at storm radius 11 - TOOK DAMAGE
+
+--- Hour 30 ---
+TASK completed by ship 16: RESCUE task for disabled ship 4
+REPAIR at port tasked for ship 14
+
+--- Hour 31 ---
+ENTER PORT: ship 14 at port B [repair]
+TASK completed by ship 14: Repaired at port: B
+ENTER PORT: ship 11 at port AS [repair]
+TASK completed by ship 11: Repaired at port: AS
+ENTER PORT: ship 4 at port AM [repair]
+TASK completed by ship 4: Repaired at port: AM
+SCENARIO message: storm 34 10 18
+
+--- Hour 32 ---
+STORM HIT: ship 0 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 3 at storm radius 18 - TOOK DAMAGE
+DISABLED ship ID: 15 -- at position (19, 4)
+RESCUE ASSIGNED: diverting ship 16 to rescue ship 15
+STORM HIT: ship 15 at storm radius 18 - DISABLED
+STORM HIT: ship 2 at storm radius 18 - TOOK DAMAGE
+
+--- Hour 33 ---
+ENTER PORT: ship 2 at port U [repair]
+TASK completed by ship 2: Repaired at port: U
+SCENARIO message: supply 1421 bananas AU AR
+Supply run ACCEPTED for ship 7 Supply: shipping 1421 tonnes of bananas from port AU to port AR
+
+--- Hour 34 ---
+EXIT PORT: ship 7 from port AN
+SCENARIO message: storm 0 21 19
+SCENARIO message: storm 10 16 11
+
+--- Hour 35 ---
+EXIT PORT: ship 1 from port A
+ENTER PORT: ship 8 at port BC [repair]
+TASK completed by ship 8: Repaired at port: BC
+STORM HIT: ship 10 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 19 - TOOK DAMAGE
+SCENARIO message: supply 894 rubber-ducks V BF
+Supply run ACCEPTED for ship 14 Supply: shipping 894 tonnes of rubber-ducks from port V to port BF
+
+--- Hour 36 ---
+EXIT PORT: ship 14 from port B
+REPAIR at port tasked for ship 10
+REPAIR at port tasked for ship 13
+REPAIR at port tasked for ship 8
+
+--- Hour 37 ---
+ENTER PORT: ship 1 at port E [unloading 3243 tonnes of cotton]
+ENTER PORT: ship 0 at port V [unloading 3227 tonnes of striped-paint]
+SCENARIO message: storm 3 27 12
+
+--- Hour 38 ---
+STORM HIT: ship 10 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 12 - TOOK DAMAGE
+
+--- Hour 39 ---
+REPAIR at port tasked for ship 10
+REPAIR at port tasked for ship 13
+REPAIR at port tasked for ship 8
+SCENARIO message: storm 26 16 11
+
+--- Hour 40 ---
+DISABLED ship ID: 3 -- at position (26, 27)
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 3
+STORM HIT: ship 3 at storm radius 11 - DISABLED
+STORM HIT: ship 12 at storm radius 11 - TOOK DAMAGE
+
+--- Hour 41 ---
+EXIT PORT: ship 1 from port E
+
+--- Hour 42 ---
+TASK completed by ship 0: Supply: shipping 3227 tonnes of striped-paint from port J to port V
+
+--- Hour 43 ---
+
+--- Hour 44 ---
+SCENARIO message: !T (
+SCENARIO message: storm 21 34 15
+
+--- Hour 45 ---
+STORM HIT: ship 16 at storm radius 15 - TOOK DAMAGE
+SHIP SUNK: id = 3
+STORM HIT: ship 3 at storm radius 15 - SUNK
+STORM HIT: ship 5 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 11 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 4 at storm radius 15 - TOOK DAMAGE
+SCENARIO message: storm 4 5 19
+
+--- Hour 46 ---
+RESCUE ABANDONED by ship 1 for disabled ship 3
+REPAIR at port tasked for ship 9
+REPAIR at port tasked for ship 11
+REPAIR at port tasked for ship 4
+STORM HIT: ship 1 at storm radius 19 - TOOK DAMAGE
+SHIP SUNK: id = 15
+STORM HIT: ship 15 at storm radius 19 - SUNK
+STORM HIT: ship 13 at storm radius 19 - TOOK DAMAGE
+
+--- Hour 47 ---
+RESCUE ABANDONED by ship 16 for disabled ship 15
+REPAIR at port tasked for ship 13
+
+--- Hour 48 ---
+SCENARIO message: supply 4263 wool AH H
+Supply run ACCEPTED for ship 0 Supply: shipping 4263 tonnes of wool from port AH to port H
+SCENARIO message: storm 20 13 15
+
+--- Hour 49 ---
+EXIT PORT: ship 0 from port V
+ENTER PORT: ship 12 at port W [loading 2212 tonnes of chlorine-trifluoride]
+STORM HIT: ship 16 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 1 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 15 - TOOK DAMAGE
+
+--- Hour 50 ---
+ENTER PORT: ship 5 at port AG [loading 1987 tonnes of wheat]
+REPAIR at port tasked for ship 18
+
+--- Hour 51 ---
+ENTER PORT: ship 1 at port E [unloading 3243 tonnes of cotton]
+ENTER PORT: ship 14 at port V [loading 894 tonnes of rubber-ducks]
+
+--- Hour 52 ---
+ENTER PORT: ship 6 at port AI [loading 2847 tonnes of rye]
+SCENARIO message: supply 4401 oil AR T
+Supply run ACCEPTED for ship 10 Supply: shipping 4401 tonnes of oil from port AR to port T
+SCENARIO message: storm 30 10 19
+SCENARIO message: storm 5 2 18
+SCENARIO message: supply 3646 elbow-grease AU AJ
+Supply run ACCEPTED for ship 9 Supply: shipping 3646 tonnes of elbow-grease from port AU to port AJ
+
+--- Hour 53 ---
+EXIT PORT: ship 9 from port Y
+STORM HIT: ship 6 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 0 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 12 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 14 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 2 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 17 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 19 - TOOK DAMAGE
+STORM HIT: ship 1 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 7 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 18 - TOOK DAMAGE
+
+--- Hour 54 ---
+REPAIR at port tasked for ship 2
+REPAIR at port tasked for ship 17
+REPAIR at port tasked for ship 18
+SCENARIO message: storm 0 28 8
+SCENARIO message: storm 32 25 6
+
+--- Hour 55 ---
+EXIT PORT: ship 12 from port W
+STORM HIT: ship 10 at storm radius 8 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 8 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 8 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 6 - TOOK DAMAGE
+STORM HIT: ship 17 at storm radius 6 - TOOK DAMAGE
+SCENARIO message: supply 4362 copper X AL
+Supply run ACCEPTED for ship 13 Supply: shipping 4362 tonnes of copper from port X to port AL
+SCENARIO message: supply 2547 unobtainium AK F
+Supply run ACCEPTED for ship 2 Supply: shipping 2547 tonnes of unobtainium from port AK to port F
+
+--- Hour 56 ---
+TASK completed by ship 1: Supply: shipping 3243 tonnes of cotton from port A to port E
+EXIT PORT: ship 5 from port AG
+EXIT PORT: ship 13 from port AY
+EXIT PORT: ship 2 from port U
+REPAIR at port tasked for ship 8
+REPAIR at port tasked for ship 17
+SCENARIO message: supply 4005 steel J F
+Supply run ACCEPTED for ship 1 Supply: shipping 4005 tonnes of steel from port J to port F
+
+--- Hour 57 ---
+EXIT PORT: ship 1 from port E
+EXIT PORT: ship 14 from port V
+SCENARIO message: storm 31 23 7
+
+--- Hour 58 ---
+EXIT PORT: ship 6 from port AI
+ENTER PORT: ship 10 at port AR [loading 4401 tonnes of oil]
+STORM HIT: ship 12 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 5 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 17 at storm radius 7 - TOOK DAMAGE
+SCENARIO message: AK js J } y
+
+--- Hour 59 ---
+REPAIR at port tasked for ship 17
+SCENARIO message: supply 1865 mangoes S AK
+Supply run ACCEPTED for ship 11 Supply: shipping 1865 tonnes of mangoes from port S to port AK
+
+--- Hour 60 ---
+EXIT PORT: ship 11 from port AS
+
+--- Hour 61 ---
+ENTER PORT: ship 16 at port AL [loading 3336 tonnes of timber]
+
+--- Hour 62 ---
+SCENARIO message: storm 11 31 7
+
+--- Hour 63 ---
+STORM HIT: ship 16 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 11 at storm radius 7 - TOOK DAMAGE
+
+--- Hour 64 ---
+EXIT PORT: ship 10 from port AR
+SCENARIO message: supply 2181 sprockets BA AB
+Supply run ACCEPTED for ship 4 Supply: shipping 2181 tonnes of sprockets from port BA to port AB
+SCENARIO message: supply 1188 iron-ore S A
+Supply run ACCEPTED for ship 8 Supply: shipping 1188 tonnes of iron-ore from port S to port A
+
+--- Hour 65 ---
+EXIT PORT: ship 4 from port AM
+EXIT PORT: ship 8 from port BC
+SCENARIO message: supply 507 sprockets R BF
+Supply run ACCEPTED for ship 17 Supply: shipping 507 tonnes of sprockets from port R to port BF
+SCENARIO message: supply 4482 rubber-ducks AG AW
+Supply run ACCEPTED for ship 18 Supply: shipping 4482 tonnes of rubber-ducks from port AG to port AW
+
+--- Hour 66 ---
+
+--- Hour 67 ---
+EXIT PORT: ship 16 from port AL
+SCENARIO message: storm 34 17 5
+SCENARIO message: storm 5 4 8
+
+--- Hour 68 ---
+ENTER PORT: ship 12 at port AH [unloading 2212 tonnes of chlorine-trifluoride]
+STORM HIT: ship 6 at storm radius 5 - TOOK DAMAGE
+STORM HIT: ship 7 at storm radius 8 - TOOK DAMAGE
+SCENARIO message: supply 3237 mangoes AI Z
+Supply run IGNORED: Supply: shipping 3237 tonnes of mangoes from port AI to port Z
+
+--- Hour 69 ---
+ENTER PORT: ship 7 at port AU [loading 1421 tonnes of bananas]
+SCENARIO message: supply 2627 copper A BC
+Supply run IGNORED: Supply: shipping 2627 tonnes of copper from port A to port BC
+SCENARIO message: supply 2536 elbow-grease AT P
+Supply run IGNORED: Supply: shipping 2536 tonnes of elbow-grease from port AT to port P
+
+--- Hour 70 ---
+ENTER PORT: ship 1 at port J [loading 4005 tonnes of steel]
+
+--- Hour 71 ---
+
+--- Hour 72 ---
+ENTER PORT: ship 0 at port AH [loading 4263 tonnes of wool]
+
+--- Hour 73 ---
+TASK completed by ship 12: Supply: shipping 2212 tonnes of chlorine-trifluoride from port W to port AH
+SCENARIO message: supply 573 luxury-cars V AV
+Supply run ACCEPTED for ship 12 Supply: shipping 573 tonnes of luxury-cars from port V to port AV
+
+--- Hour 74 ---
+EXIT PORT: ship 12 from port AH
+SCENARIO message: supply 2650 elbow-grease AF AJ
+Supply run IGNORED: Supply: shipping 2650 tonnes of elbow-grease from port AF to port AJ
+
+--- Hour 75 ---
+EXIT PORT: ship 7 from port AU
+
+--- Hour 76 ---
+EXIT PORT: ship 1 from port J
+SCENARIO message: storm 22 10 4
+
+--- Hour 77 ---
+
+--- Hour 78 ---
+EXIT PORT: ship 0 from port AH
+
+--- Hour 79 ---
+
+--- Hour 80 ---
+SCENARIO message: supply 1713 timber K AW
+Supply run IGNORED: Supply: shipping 1713 tonnes of timber from port K to port AW
+SCENARIO message: supply 4564 chlorine-trifluoride R AA
+Supply run IGNORED: Supply: shipping 4564 tonnes of chlorine-trifluoride from port R to port AA
+
+--- Hour 81 ---
+ENTER PORT: ship 11 at port S [loading 1865 tonnes of mangoes]
+SCENARIO message: supply 816 rubber-ducks AW AZ
+Supply run IGNORED: Supply: shipping 816 tonnes of rubber-ducks from port AW to port AZ
+
+--- Hour 82 ---
+SCENARIO message: storm 5 19 8
+SCENARIO message: supply 1058 bananas BA D
+Supply run IGNORED: Supply: shipping 1058 tonnes of bananas from port BA to port D
+SCENARIO message: storm 20 1 6
+
+--- Hour 83 ---
+ENTER PORT: ship 4 at port BA [loading 2181 tonnes of sprockets]
+STORM HIT: ship 5 at storm radius 8 - TOOK DAMAGE
+STORM HIT: ship 14 at storm radius 8 - TOOK DAMAGE
+STORM HIT: ship 4 at storm radius 8 - TOOK DAMAGE
+SCENARIO message: supply 4462 bananas AJ J
+Supply run IGNORED: Supply: shipping 4462 tonnes of bananas from port AJ to port J
+
+--- Hour 84 ---
+
+--- Hour 85 ---
+
+--- Hour 86 ---
+ENTER PORT: ship 1 at port F [unloading 4005 tonnes of steel]
+ENTER PORT: ship 2 at port AK [loading 2547 tonnes of unobtainium]
+
+--- Hour 87 ---
+ENTER PORT: ship 6 at port AB [unloading 2847 tonnes of rye]
+ENTER PORT: ship 9 at port AU [loading 3646 tonnes of elbow-grease]
+EXIT PORT: ship 11 from port S
+
+--- Hour 88 ---
+SCENARIO message: supply 2592 iron-ore M AI
+Supply run IGNORED: Supply: shipping 2592 tonnes of iron-ore from port M to port AI
+
+--- Hour 89 ---
+EXIT PORT: ship 4 from port BA
+SCENARIO message: storm 27 4 6
+
+--- Hour 90 ---
+ENTER PORT: ship 16 at port X [unloading 3336 tonnes of timber]
+ENTER PORT: ship 5 at port BC [unloading 1987 tonnes of wheat]
+ENTER PORT: ship 13 at port X [loading 4362 tonnes of copper]
+
+--- Hour 91 ---
+TASK completed by ship 1: Supply: shipping 4005 tonnes of steel from port J to port F
+ENTER PORT: ship 14 at port BF [unloading 894 tonnes of rubber-ducks]
+
+--- Hour 92 ---
+TASK completed by ship 6: Supply: shipping 2847 tonnes of rye from port AI to port AB
+EXIT PORT: ship 2 from port AK
+
+--- Hour 93 ---
+EXIT PORT: ship 9 from port AU
+SCENARIO message: storm 13 23 8
+
+--- Hour 94 ---
+STORM HIT: ship 4 at storm radius 8 - TOOK DAMAGE
+
+--- Hour 95 ---
+TASK completed by ship 16: Supply: shipping 3336 tonnes of timber from port AL to port X
+TASK completed by ship 5: Supply: shipping 1987 tonnes of wheat from port AG to port BC
+ENTER PORT: ship 10 at port T [unloading 4401 tonnes of oil]
+
+--- Hour 96 ---
+TASK completed by ship 14: Supply: shipping 894 tonnes of rubber-ducks from port V to port BF
+EXIT PORT: ship 13 from port X
+ENTER PORT: ship 17 at port R [loading 507 tonnes of sprockets]
+SCENARIO message: supply 3379 rubber-ducks AA AM
+Supply run ACCEPTED for ship 16 Supply: shipping 3379 tonnes of rubber-ducks from port AA to port AM
+SCENARIO message: supply 3065 timber P C
+Supply run ACCEPTED for ship 1 Supply: shipping 3065 tonnes of timber from port P to port C
+SCENARIO message: storm 25 14 6
+SCENARIO message: supply 4706 wool U AK
+Supply run ACCEPTED for ship 6 Supply: shipping 4706 tonnes of wool from port U to port AK
+
+--- Hour 97 ---
+EXIT PORT: ship 16 from port X
+EXIT PORT: ship 1 from port F
+EXIT PORT: ship 6 from port AB
+ENTER PORT: ship 12 at port V [loading 573 tonnes of luxury-cars]
+ENTER PORT: ship 18 at port AG [loading 4482 tonnes of rubber-ducks]
+
+--- Hour 98 ---
+
+--- Hour 99 ---
+ENTER PORT: ship 8 at port S [loading 1188 tonnes of iron-ore]
+SCENARIO message: supply 510 sprockets U H
+Supply run ACCEPTED for ship 5 Supply: shipping 510 tonnes of sprockets from port U to port H
+SCENARIO message: supply 4514 luxury-cars AZ X
+Supply run ACCEPTED for ship 14 Supply: shipping 4514 tonnes of luxury-cars from port AZ to port X
+
+--- Hour 100 ---
+EXIT PORT: ship 5 from port BC
+EXIT PORT: ship 14 from port BF
+TASK completed by ship 10: Supply: shipping 4401 tonnes of oil from port AR to port T
+
+--- Hour 101 ---
+
+--- Hour 102 ---
+EXIT PORT: ship 17 from port R
+SCENARIO message: supply 4897 widgets AP AR
+Supply run ACCEPTED for ship 10 Supply: shipping 4897 tonnes of widgets from port AP to port AR
+SCENARIO message: storm 31 18 10
+SCENARIO message: supply 2640 lock-picking-tools H AJ
+Supply run IGNORED: Supply: shipping 2640 tonnes of lock-picking-tools from port H to port AJ
+SCENARIO message: supply 2336 rubber-ducks AA C
+Supply run IGNORED: Supply: shipping 2336 tonnes of rubber-ducks from port AA to port C
+
+--- Hour 103 ---
+EXIT PORT: ship 12 from port V
+EXIT PORT: ship 10 from port T
+EXIT PORT: ship 18 from port AG
+STORM HIT: ship 16 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 6 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 10 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 10 - TOOK DAMAGE
+SCENARIO message: storm 25 34 16
+SCENARIO message: -64 9#&{N
+
+--- Hour 104 ---
+STORM HIT: ship 6 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 10 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 2 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 11 at storm radius 16 - TOOK DAMAGE
+DISABLED ship ID: 4 -- at position (16, 33)
+RESCUE ASSIGNED: diverting ship 16 to rescue ship 4
+STORM HIT: ship 4 at storm radius 16 - DISABLED
+STORM HIT: ship 8 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 16 - TOOK DAMAGE
+SCENARIO message: ship 13 -95 C 50 AG 16 82 -45 -20 1z
+
+--- Hour 105 ---
+ENTER PORT: ship 0 at port H [unloading 4263 tonnes of wool]
+EXIT PORT: ship 8 from port S
+
+--- Hour 106 ---
+
+--- Hour 107 ---
+
+--- Hour 108 ---
+
+--- Hour 109 ---
+SCENARIO message: supply 1714 wool AN AU
+Supply run IGNORED: Supply: shipping 1714 tonnes of wool from port AN to port AU
+SCENARIO message: AU kcmW
+
+--- Hour 110 ---
+TASK completed by ship 0: Supply: shipping 4263 tonnes of wool from port AH to port H
+ENTER PORT: ship 7 at port AR [unloading 1421 tonnes of bananas]
+ENTER PORT: ship 14 at port AZ [loading 4514 tonnes of luxury-cars]
+
+--- Hour 111 ---
+
+--- Hour 112 ---
+
+--- Hour 113 ---
+ENTER PORT: ship 10 at port AP [loading 4897 tonnes of widgets]
+SCENARIO message: supply 3207 muffins AN U
+Supply run ACCEPTED for ship 0 Supply: shipping 3207 tonnes of muffins from port AN to port U
+
+--- Hour 114 ---
+EXIT PORT: ship 0 from port H
+
+--- Hour 115 ---
+TASK completed by ship 7: Supply: shipping 1421 tonnes of bananas from port AU to port AR
+SCENARIO message: supply 3904 striped-paint V AR
+Supply run ACCEPTED for ship 7 Supply: shipping 3904 tonnes of striped-paint from port V to port AR
+
+--- Hour 116 ---
+EXIT PORT: ship 7 from port AR
+EXIT PORT: ship 14 from port AZ
+SCENARIO message: port /Q G o
+
+--- Hour 117 ---
+ENTER PORT: ship 11 at port AK [unloading 1865 tonnes of mangoes]
+SCENARIO message: -22 7\O'@rk z${' jb@
+SCENARIO message: storm Y vLQ` 7
+
+--- Hour 118 ---
+
+--- Hour 119 ---
+EXIT PORT: ship 10 from port AP
+ENTER PORT: ship 13 at port AL [unloading 4362 tonnes of copper]
+
+--- Hour 120 ---
+ENTER PORT: ship 6 at port U [loading 4706 tonnes of wool]
+
+--- Hour 121 ---
+ENTER PORT: ship 17 at port BF [unloading 507 tonnes of sprockets]
+
+--- Hour 122 ---
+ENTER PORT: ship 1 at port P [loading 3065 tonnes of timber]
+TASK completed by ship 11: Supply: shipping 1865 tonnes of mangoes from port S to port AK
+SCENARIO message: storm 29 21 16
+
+--- Hour 123 ---
+STORM HIT: ship 6 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 0 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 5 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 16 - TOOK DAMAGE
+SCENARIO message: storm 18 21 12
+
+--- Hour 124 ---
+TASK completed by ship 16: RESCUE task for disabled ship 4
+TASK completed by ship 13: Supply: shipping 4362 tonnes of copper from port X to port AL
+STORM HIT: ship 0 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 7 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 14 at storm radius 12 - TOOK DAMAGE
+
+--- Hour 125 ---
+SCENARIO message: storm 23 15 15
+SCENARIO message: storm 35 27 5
+SCENARIO message: supply 1323 striped-paint T AC
+Supply run ACCEPTED for ship 13 Supply: shipping 1323 tonnes of striped-paint from port T to port AC
+SCENARIO message: supply 3940 rye AD G
+Supply run ACCEPTED for ship 11 Supply: shipping 3940 tonnes of rye from port AD to port G
+
+--- Hour 126 ---
+EXIT PORT: ship 6 from port U
+EXIT PORT: ship 13 from port AL
+EXIT PORT: ship 11 from port AK
+TASK completed by ship 17: Supply: shipping 507 tonnes of sprockets from port R to port BF
+STORM HIT: ship 6 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 0 -- at position (19, 13)
+RESCUE ASSIGNED: diverting ship 16 to rescue ship 0
+STORM HIT: ship 0 at storm radius 15 - DISABLED
+STORM HIT: ship 12 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 5 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 7 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 14 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 9 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 9 -- at position (34, 23)
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 9
+STORM HIT: ship 9 at storm radius 5 - DISABLED
+
+--- Hour 127 ---
+EXIT PORT: ship 1 from port P
+SCENARIO message: storm 10 29 16
+
+--- Hour 128 ---
+ENTER PORT: ship 2 at port F [unloading 2547 tonnes of unobtainium]
+STORM HIT: ship 16 at storm radius 16 - TOOK DAMAGE
+DISABLED ship ID: 7 -- at position (16, 24)
+RESCUE ASSIGNED: diverting ship 6 to rescue ship 7
+STORM HIT: ship 7 at storm radius 16 - DISABLED
+DISABLED ship ID: 14 -- at position (13, 21)
+RESCUE ASSIGNED: diverting ship 12 to rescue ship 14
+STORM HIT: ship 14 at storm radius 16 - DISABLED
+STORM HIT: ship 10 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 11 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 4 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 17 at storm radius 16 - TOOK DAMAGE
+SCENARIO message: storm 3 16 15
+SCENARIO message: supply 4449 luxury-cars Q BC
+Supply run ACCEPTED for ship 17 Supply: shipping 4449 tonnes of luxury-cars from port Q to port BC
+
+--- Hour 129 ---
+ENTER PORT: ship 8 at port A [unloading 1188 tonnes of iron-ore]
+EXIT PORT: ship 17 from port BF
+STORM HIT: ship 12 at storm radius 15 - TOOK DAMAGE
+SHIP SUNK: id = 14
+STORM HIT: ship 14 at storm radius 15 - SUNK
+STORM HIT: ship 17 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 18 -- at position (8, 5)
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 18
+STORM HIT: ship 18 at storm radius 15 - DISABLED
+SCENARIO message: supply 3880 lock-picking-tools T AR
+Supply run ACCEPTED for ship 19 Supply: shipping 3880 tonnes of lock-picking-tools from port T to port AR
+SCENARIO message: storm 5 28 7
+
+--- Hour 130 ---
+RESCUE ABANDONED by ship 12 for disabled ship 14
+STORM HIT: ship 11 at storm radius 7 - TOOK DAMAGE
+
+--- Hour 131 ---
+
+--- Hour 132 ---
+
+--- Hour 133 ---
+TASK completed by ship 2: Supply: shipping 2547 tonnes of unobtainium from port AK to port F
+
+--- Hour 134 ---
+TASK completed by ship 8: Supply: shipping 1188 tonnes of iron-ore from port S to port A
+SCENARIO message: supply 4666 mangoes AE AU
+Supply run ACCEPTED for ship 2 Supply: shipping 4666 tonnes of mangoes from port AE to port AU
+
+--- Hour 135 ---
+EXIT PORT: ship 2 from port F
+
+--- Hour 136 ---
+SCENARIO message: storm 30 37 15
+SCENARIO message: 4M?D>f\
+SCENARIO message: 7Dot<Br"1
+
+--- Hour 137 ---
+SHIP SUNK: id = 9
+STORM HIT: ship 9 at storm radius 15 - SUNK
+STORM HIT: ship 13 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 4 -- at position (29, 33)
+RESCUE ASSIGNED: diverting ship 12 to rescue ship 4
+STORM HIT: ship 4 at storm radius 15 - DISABLED
+SCENARIO message: storm 14 36 3
+SCENARIO message: storm 12 6 4
+
+--- Hour 138 ---
+RESCUE ABANDONED by ship 1 for disabled ship 9
+SCENARIO message: 37 8`CO\d&A
+
+--- Hour 139 ---
+
+--- Hour 140 ---
+SCENARIO message: supply 4810 lock-picking-tools AR O
+Supply run ACCEPTED for ship 8 Supply: shipping 4810 tonnes of lock-picking-tools from port AR to port O
+
+--- Hour 141 ---
+ENTER PORT: ship 10 at port AR [unloading 4897 tonnes of widgets]
+EXIT PORT: ship 8 from port A
+
+--- Hour 142 ---
+
+--- Hour 143 ---
+
+--- Hour 144 ---
+TASK completed by ship 16: RESCUE task for disabled ship 0
+TASK completed by ship 6: RESCUE task for disabled ship 7
+SCENARIO message: supply 4226 oil AU AG
+Supply run ACCEPTED for ship 20 Supply: shipping 4226 tonnes of oil from port AU to port AG
+
+--- Hour 145 ---
+SCENARIO message: supply 4696 iron-ore X U
+Supply run IGNORED: Supply: shipping 4696 tonnes of iron-ore from port X to port U
+
+--- Hour 146 ---
+TASK completed by ship 10: Supply: shipping 4897 tonnes of widgets from port AP to port AR
+
+--- Hour 147 ---
+
+--- Hour 148 ---
+SCENARIO message: storm 22 6 8
+
+--- Hour 149 ---
+ENTER PORT: ship 1 at port P [loading 3065 tonnes of timber]
+ENTER PORT: ship 13 at port T [loading 1323 tonnes of striped-paint]
+DISABLED ship ID: 16 -- at position (24, 8)
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 16
+STORM HIT: ship 16 at storm radius 8 - DISABLED
+DISABLED ship ID: 17 -- at position (21, 0)
+RESCUE ASSIGNED: diverting ship 6 to rescue ship 17
+STORM HIT: ship 17 at storm radius 8 - DISABLED
+
+--- Hour 150 ---
+EXIT PORT: ship 1 from port P
+SCENARIO message: storm 18 28 14
+SCENARIO message: storm 20 19 12
+SCENARIO message: supply 3493 copper L AC
+Supply run ACCEPTED for ship 10 Supply: shipping 3493 tonnes of copper from port L to port AC
+SCENARIO message: storm 19 35 16
+
+--- Hour 151 ---
+TASK completed by ship 5: RESCUE task for disabled ship 18
+EXIT PORT: ship 10 from port AR
+ENTER PORT: ship 2 at port AE [loading 4666 tonnes of mangoes]
+RESCUE ABANDONED by ship 6 for disabled ship 17
+DISABLED ship ID: 6 -- at position (13, 27)
+RESCUE ASSIGNED: diverting ship 0 to rescue ship 6
+STORM HIT: ship 6 at storm radius 14 - DISABLED
+STORM HIT: ship 0 at storm radius 14 - TOOK DAMAGE
+RESCUE ABANDONED by ship 12 for disabled ship 4
+DISABLED ship ID: 12 -- at position (17, 20)
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 12
+STORM HIT: ship 12 at storm radius 14 - DISABLED
+STORM HIT: ship 7 at storm radius 14 - TOOK DAMAGE
+SHIP SUNK: id = 4
+STORM HIT: ship 4 at storm radius 14 - SUNK
+STORM HIT: ship 19 at storm radius 14 - TOOK DAMAGE
+SHIP SUNK: id = 16
+STORM HIT: ship 16 at storm radius 12 - SUNK
+RESCUE ABANDONED by ship 6 for disabled ship 17
+SHIP SUNK: id = 6
+STORM HIT: ship 6 at storm radius 12 - SUNK
+RESCUE ABANDONED by ship 0 for disabled ship 6
+DISABLED ship ID: 0 -- at position (19, 20)
+RESCUE ASSIGNED: diverting ship 7 to rescue ship 0
+STORM HIT: ship 0 at storm radius 12 - DISABLED
+RESCUE ABANDONED by ship 12 for disabled ship 4
+SHIP SUNK: id = 12
+STORM HIT: ship 12 at storm radius 12 - SUNK
+RESCUE ABANDONED by ship 7 for disabled ship 0
+DISABLED ship ID: 7 -- at position (23, 17)
+RESCUE ASSIGNED: diverting ship 10 to rescue ship 7
+STORM HIT: ship 7 at storm radius 12 - DISABLED
+STORM HIT: ship 19 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 20 at storm radius 12 - TOOK DAMAGE
+RESCUE ABANDONED by ship 0 for disabled ship 6
+SHIP SUNK: id = 0
+STORM HIT: ship 0 at storm radius 16 - SUNK
+STORM HIT: ship 10 at storm radius 16 - TOOK DAMAGE
+DISABLED ship ID: 19 -- at position (22, 26)
+RESCUE ASSIGNED: diverting ship 13 to rescue ship 19
+STORM HIT: ship 19 at storm radius 16 - DISABLED
+STORM HIT: ship 21 at storm radius 16 - TOOK DAMAGE
+STORM HIT: ship 23 at storm radius 16 - TOOK DAMAGE
+SCENARIO message: supply 3134 gold AK AS
+Supply run ACCEPTED for ship 21 Supply: shipping 3134 tonnes of gold from port AK to port AS
+
+--- Hour 152 ---
+RESCUE ABANDONED by ship 1 for disabled ship 16
+RESCUE ABANDONED by ship 5 for disabled ship 12
+EXIT PORT: ship 13 from port T
+REPAIR at port tasked for ship 23
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 17
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 17
+SCENARIO message: supply 1134 chlorine-trifluoride AT X
+Supply run ACCEPTED for ship 22 Supply: shipping 1134 tonnes of chlorine-trifluoride from port AT to port X
+
+--- Hour 153 ---
+
+--- Hour 154 ---
+
+--- Hour 155 ---
+SCENARIO message: supply 3683 wool W AO
+Supply run ACCEPTED for ship 23 Supply: shipping 3683 tonnes of wool from port W to port AO
+
+--- Hour 156 ---
+SCENARIO message: supply 1499 sprockets S AZ
+Supply run ACCEPTED for ship 24 Supply: shipping 1499 tonnes of sprockets from port S to port AZ
+SCENARIO message: supply 4703 rye BB AN
+Supply run ACCEPTED for ship 25 Supply: shipping 4703 tonnes of rye from port BB to port AN
+
+--- Hour 157 ---
+EXIT PORT: ship 2 from port AE
+ENTER PORT: ship 11 at port AD [loading 3940 tonnes of rye]
+
+--- Hour 158 ---
+SCENARIO message: storm 0 26 18
+
+--- Hour 159 ---
+ENTER PORT: ship 18 at port AW [unloading 4482 tonnes of rubber-ducks]
+STORM HIT: ship 10 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 8 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 24 at storm radius 18 - TOOK DAMAGE
+
+--- Hour 160 ---
+SCENARIO message: storm 25 16 10
+SCENARIO message: AT -92 3(ue O 68 AQ AB Ot$XhL|\do
+
+--- Hour 161 ---
+RESCUE ABANDONED by ship 7 for disabled ship 0
+SHIP SUNK: id = 7
+STORM HIT: ship 7 at storm radius 10 - SUNK
+STORM HIT: ship 13 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 2 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 25 at storm radius 10 - TOOK DAMAGE
+
+--- Hour 162 ---
+TASK completed by ship 1: RESCUE task for disabled ship 17
+RESCUE ABANDONED by ship 5 for disabled ship 17
+RESCUE ABANDONED by ship 10 for disabled ship 7
+SCENARIO message: storm 20 29 8
+
+--- Hour 163 ---
+EXIT PORT: ship 11 from port AD
+DISABLED ship ID: 10 -- at position (15, 25)
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 10
+STORM HIT: ship 10 at storm radius 8 - DISABLED
+STORM HIT: ship 13 at storm radius 8 - TOOK DAMAGE
+SHIP SUNK: id = 19
+STORM HIT: ship 19 at storm radius 8 - SUNK
+STORM HIT: ship 23 at storm radius 8 - TOOK DAMAGE
+
+--- Hour 164 ---
+RESCUE ABANDONED by ship 13 for disabled ship 19
+TASK completed by ship 18: Supply: shipping 4482 tonnes of rubber-ducks from port AG to port AW
+
+--- Hour 165 ---
+
+--- Hour 166 ---
+SCENARIO message: supply 1685 chlorine-trifluoride AH BB
+Supply run ACCEPTED for ship 18 Supply: shipping 1685 tonnes of chlorine-trifluoride from port AH to port BB
+SCENARIO message: supply 1307 gold AK AA
+Supply run ACCEPTED for ship 26 Supply: shipping 1307 tonnes of gold from port AK to port AA
+
+--- Hour 167 ---
+EXIT PORT: ship 18 from port AW
+
+--- Hour 168 ---
+SCENARIO message: supply 3823 rye AD AW
+Supply run ACCEPTED for ship 27 Supply: shipping 3823 tonnes of rye from port AD to port AW
+
+--- Hour 169 ---
+SCENARIO message: storm 11 30 15
+SCENARIO message: storm 19 24 15
+
+--- Hour 170 ---
+SHIP SUNK: id = 10
+STORM HIT: ship 10 at storm radius 15 - SUNK
+STORM HIT: ship 8 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 21 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 24 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 27 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 13 -- at position (29, 26)
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 13
+STORM HIT: ship 13 at storm radius 15 - DISABLED
+STORM HIT: ship 23 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 24 -- at position (14, 25)
+RESCUE ASSIGNED: diverting ship 2 to rescue ship 24
+STORM HIT: ship 24 at storm radius 15 - DISABLED
+STORM HIT: ship 25 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 26 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 27 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 28 at storm radius 15 - TOOK DAMAGE
+
+--- Hour 171 ---
+RESCUE ABANDONED by ship 1 for disabled ship 10
+REPAIR at port tasked for ship 28
+
+--- Hour 172 ---
+
+--- Hour 173 ---
+ENTER PORT: ship 21 at port AK [loading 3134 tonnes of gold]
+SCENARIO message: supply 1455 chlorine-trifluoride AS AN
+Supply run ACCEPTED for ship 28 Supply: shipping 1455 tonnes of chlorine-trifluoride from port AS to port AN
+SCENARIO message: storm 32 16 4
+
+--- Hour 174 ---
+DISABLED ship ID: 23 -- at position (32, 18)
+RESCUE ASSIGNED: diverting ship 1 to rescue ship 23
+STORM HIT: ship 23 at storm radius 4 - DISABLED
+SCENARIO message: storm 9 8 7
+SCENARIO message: N H -76 63 AB AR F zoV!B=C -80 S7> ES$!* Q_aX f3l Z-
+
+--- Hour 175 ---
+ENTER PORT: ship 17 at port Q [loading 4449 tonnes of luxury-cars]
+ENTER PORT: ship 28 at port AS [loading 1455 tonnes of chlorine-trifluoride]
+STORM HIT: ship 1 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 2 at storm radius 7 - TOOK DAMAGE
+STORM HIT: ship 18 at storm radius 7 - TOOK DAMAGE
+
+--- Hour 176 ---
+ENTER PORT: ship 11 at port G [unloading 3940 tonnes of rye]
+ENTER PORT: ship 22 at port AT [loading 1134 tonnes of chlorine-trifluoride]
+SCENARIO message: supply I .f6AtW
+
+--- Hour 177 ---
+ENTER PORT: ship 8 at port AR [loading 4810 tonnes of lock-picking-tools]
+
+--- Hour 178 ---
+SCENARIO message: storm 8 13 15
+
+--- Hour 179 ---
+ENTER PORT: ship 20 at port AU [loading 4226 tonnes of oil]
+EXIT PORT: ship 21 from port AK
+STORM HIT: ship 1 at storm radius 15 - TOOK DAMAGE
+RESCUE ABANDONED by ship 2 for disabled ship 24
+DISABLED ship ID: 2 -- at position (14, 12)
+RESCUE ASSIGNED: diverting ship 11 to rescue ship 2
+STORM HIT: ship 2 at storm radius 15 - DISABLED
+STORM HIT: ship 18 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 20 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 22 at storm radius 15 - TOOK DAMAGE
+SHIP SUNK: id = 24
+STORM HIT: ship 24 at storm radius 15 - SUNK
+DISABLED ship ID: 25 -- at position (12, 12)
+RESCUE ASSIGNED: diverting ship 8 to rescue ship 25
+STORM HIT: ship 25 at storm radius 15 - DISABLED
+
+--- Hour 180 ---
+EXIT PORT: ship 11 from port G
+EXIT PORT: ship 8 from port AR
+SCENARIO message: supply 1231 rice A AP
+Supply run ACCEPTED for ship 29 Supply: shipping 1231 tonnes of rice from port A to port AP
+
+--- Hour 181 ---
+EXIT PORT: ship 17 from port Q
+EXIT PORT: ship 28 from port AS
+SCENARIO message: storm 15 17 10
+
+--- Hour 182 ---
+EXIT PORT: ship 22 from port AT
+RESCUE ABANDONED by ship 1 for disabled ship 23
+DISABLED ship ID: 1 -- at position (20, 12)
+RESCUE ASSIGNED: diverting ship 17 to rescue ship 1
+STORM HIT: ship 1 at storm radius 10 - DISABLED
+RESCUE ABANDONED by ship 2 for disabled ship 24
+SHIP SUNK: id = 2
+STORM HIT: ship 2 at storm radius 10 - SUNK
+DISABLED ship ID: 18 -- at position (16, 21)
+RESCUE ASSIGNED: diverting ship 20 to rescue ship 18
+STORM HIT: ship 18 at storm radius 10 - DISABLED
+SHIP SUNK: id = 25
+STORM HIT: ship 25 at storm radius 10 - SUNK
+
+--- Hour 183 ---
+RESCUE ABANDONED by ship 11 for disabled ship 2
+RESCUE ABANDONED by ship 8 for disabled ship 25
+EXIT PORT: ship 20 from port AU
+RESCUE ASSIGNED: diverting ship 11 to rescue ship 23
+SCENARIO message: supply 4249 chlorine-trifluoride BB O
+Supply run ACCEPTED for ship 30 Supply: shipping 4249 tonnes of chlorine-trifluoride from port BB to port O
+
+--- Hour 184 ---
+
+--- Hour 185 ---
+
+--- Hour 186 ---
+ENTER PORT: ship 8 at port AR [loading 4810 tonnes of lock-picking-tools]
+ENTER PORT: ship 28 at port AN [unloading 1455 tonnes of chlorine-trifluoride]
+SCENARIO message: -64 u ! 77
+
+--- Hour 187 ---
+ENTER PORT: ship 21 at port AS [unloading 3134 tonnes of gold]
+SCENARIO message: supply 914 timber BC BF
+Supply run ACCEPTED for ship 31 Supply: shipping 914 tonnes of timber from port BC to port BF
+SCENARIO message: storm AM -95 57 I('o{6 KMf3ZRgW> :{W5Va
+
+--- Hour 188 ---
+TASK completed by ship 5: RESCUE task for disabled ship 13
+SCENARIO message: storm 6 17 15
+SCENARIO message: supply 4345 rice T AU
+Supply run IGNORED: Supply: shipping 4345 tonnes of rice from port T to port AU
+
+--- Hour 189 ---
+RESCUE ABANDONED by ship 1 for disabled ship 23
+SHIP SUNK: id = 1
+STORM HIT: ship 1 at storm radius 15 - SUNK
+SHIP SUNK: id = 18
+STORM HIT: ship 18 at storm radius 15 - SUNK
+STORM HIT: ship 20 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 22 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 29 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 30 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 31 at storm radius 15 - TOOK DAMAGE
+
+--- Hour 190 ---
+RESCUE ABANDONED by ship 17 for disabled ship 1
+RESCUE ABANDONED by ship 20 for disabled ship 18
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 23
+SCENARIO message: supply 3618 timber K AI
+Supply run ACCEPTED for ship 32 Supply: shipping 3618 tonnes of timber from port K to port AI
+
+--- Hour 191 ---
+TASK completed by ship 28: Supply: shipping 1455 tonnes of chlorine-trifluoride from port AS to port AN
+SCENARIO message: supply 718 sprockets AM AL
+Supply run ACCEPTED for ship 28 Supply: shipping 718 tonnes of sprockets from port AM to port AL
+
+--- Hour 192 ---
+EXIT PORT: ship 8 from port AR
+TASK completed by ship 21: Supply: shipping 3134 tonnes of gold from port AK to port AS
+EXIT PORT: ship 28 from port AN
+SCENARIO message: storm 6 28 4
+SCENARIO message: supply 2977 pizza AG AP
+Supply run ACCEPTED for ship 21 Supply: shipping 2977 tonnes of pizza from port AG to port AP
+
+--- Hour 193 ---
+EXIT PORT: ship 21 from port AS
+
+--- Hour 194 ---
+ENTER PORT: ship 13 at port T [loading 1323 tonnes of striped-paint]
+SCENARIO message: storm 15 14 7
+SCENARIO message: storm 5 17 2
+
+--- Hour 195 ---
+ENTER PORT: ship 28 at port AM [loading 718 tonnes of sprockets]
+STORM HIT: ship 17 at storm radius 7 - TOOK DAMAGE
+DISABLED ship ID: 22 -- at position (14, 17)
+RESCUE ASSIGNED: diverting ship 13 to rescue ship 22
+STORM HIT: ship 22 at storm radius 7 - DISABLED
+
+--- Hour 196 ---
+TASK completed by ship 5: RESCUE task for disabled ship 23
+EXIT PORT: ship 13 from port T
+RESCUE ABANDONED by ship 11 for disabled ship 23
+ENTER PORT: ship 30 at port BB [loading 4249 tonnes of chlorine-trifluoride]
+SCENARIO message: storm 6 7 18
+
+--- Hour 197 ---
+ENTER PORT: ship 20 at port AU [loading 4226 tonnes of oil]
+ENTER PORT: ship 26 at port AK [loading 1307 tonnes of gold]
+STORM HIT: ship 17 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 20 at storm radius 18 - TOOK DAMAGE
+SHIP SUNK: id = 22
+STORM HIT: ship 22 at storm radius 18 - SUNK
+STORM HIT: ship 29 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 30 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 31 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 32 at storm radius 18 - TOOK DAMAGE
+
+--- Hour 198 ---
+RESCUE ABANDONED by ship 13 for disabled ship 22
+ENTER PORT: ship 32 at port K [loading 3618 tonnes of timber]
+SCENARIO message: supply 4535 wool X K
+Supply run ACCEPTED for ship 33 Supply: shipping 4535 tonnes of wool from port X to port K
+
+--- Hour 199 ---
+ENTER PORT: ship 31 at port BC [loading 914 tonnes of timber]
+
+--- Hour 200 ---
+ENTER PORT: ship 13 at port T [loading 1323 tonnes of striped-paint]
+ENTER PORT: ship 23 at port W [loading 3683 tonnes of wool]
+ENTER PORT: ship 27 at port AD [loading 3823 tonnes of rye]
+SCENARIO message: supply 2109 rubber-ducks AK H
+Supply run ACCEPTED for ship 34 Supply: shipping 2109 tonnes of rubber-ducks from port AK to port H
+
+--- Hour 201 ---
+EXIT PORT: ship 28 from port AM
+SCENARIO message: supply 1736 mangoes J AP
+Supply run IGNORED: Supply: shipping 1736 tonnes of mangoes from port J to port AP
+
+--- Hour 202 ---
+EXIT PORT: ship 30 from port BB
+SCENARIO message: supply 4163 iron-ore F AL
+Supply run IGNORED: Supply: shipping 4163 tonnes of iron-ore from port F to port AL
+
+--- Hour 203 ---
+EXIT PORT: ship 20 from port AU
+EXIT PORT: ship 26 from port AK
+
+--- Hour 204 ---
+ENTER PORT: ship 28 at port AL [unloading 718 tonnes of sprockets]
+EXIT PORT: ship 32 from port K
+
+--- Hour 205 ---
+ENTER PORT: ship 5 at port U [loading 510 tonnes of sprockets]
+EXIT PORT: ship 31 from port BC
+
+--- Hour 206 ---
+EXIT PORT: ship 13 from port T
+EXIT PORT: ship 23 from port W
+EXIT PORT: ship 27 from port AD
+
+--- Hour 207 ---
+SCENARIO message: supply 2500 rubber-ducks X AI
+Supply run IGNORED: Supply: shipping 2500 tonnes of rubber-ducks from port X to port AI
+SCENARIO message: supply 2256 rye AG AU
+Supply run IGNORED: Supply: shipping 2256 tonnes of rye from port AG to port AU
+SCENARIO message: storm 30 23 13
+
+--- Hour 208 ---
+ENTER PORT: ship 31 at port BF [unloading 914 tonnes of timber]
+STORM HIT: ship 13 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 21 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 23 at storm radius 13 - TOOK DAMAGE
+STORM HIT: ship 33 at storm radius 13 - TOOK DAMAGE
+
+--- Hour 209 ---
+TASK completed by ship 28: Supply: shipping 718 tonnes of sprockets from port AM to port AL
+
+--- Hour 210 ---
+
+--- Hour 211 ---
+EXIT PORT: ship 5 from port U
+ENTER PORT: ship 11 at port G [unloading 3940 tonnes of rye]
+SCENARIO message: storm 29 36 9
+
+--- Hour 212 ---
+STORM HIT: ship 21 at storm radius 9 - TOOK DAMAGE
+
+--- Hour 213 ---
+ENTER PORT: ship 13 at port AC [unloading 1323 tonnes of striped-paint]
+ENTER PORT: ship 30 at port O [unloading 4249 tonnes of chlorine-trifluoride]
+TASK completed by ship 31: Supply: shipping 914 tonnes of timber from port BC to port BF
+SCENARIO message: supply 895 copper E AL
+Supply run ACCEPTED for ship 28 Supply: shipping 895 tonnes of copper from port E to port AL
+SCENARIO message: storm 9 8 10
+
+--- Hour 214 ---
+ENTER PORT: ship 21 at port AG [loading 2977 tonnes of pizza]
+EXIT PORT: ship 28 from port AL
+STORM HIT: ship 8 at storm radius 10 - TOOK DAMAGE
+STORM HIT: ship 20 at storm radius 10 - TOOK DAMAGE
+DISABLED ship ID: 29 -- at position (13, 3)
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 29
+STORM HIT: ship 29 at storm radius 10 - DISABLED
+STORM HIT: ship 30 at storm radius 10 - TOOK DAMAGE
+
+--- Hour 215 ---
+ENTER PORT: ship 17 at port BC [unloading 4449 tonnes of luxury-cars]
+
+--- Hour 216 ---
+TASK completed by ship 11: Supply: shipping 3940 tonnes of rye from port AD to port G
+
+--- Hour 217 ---
+SCENARIO message: storm 27 23 3
+
+--- Hour 218 ---
+TASK completed by ship 13: Supply: shipping 1323 tonnes of striped-paint from port T to port AC
+TASK completed by ship 30: Supply: shipping 4249 tonnes of chlorine-trifluoride from port BB to port O
+ENTER PORT: ship 33 at port X [loading 4535 tonnes of wool]
+SCENARIO message: storm 0 11 6
+
+--- Hour 219 ---
+REPAIR at port tasked for ship 30
+ENTER PORT: ship 34 at port AK [loading 2109 tonnes of rubber-ducks]
+
+--- Hour 220 ---
+TASK completed by ship 17: Supply: shipping 4449 tonnes of luxury-cars from port Q to port BC
+EXIT PORT: ship 21 from port AG
+
+--- Hour 221 ---
+
+--- Hour 222 ---
+
+--- Hour 223 ---
+SCENARIO message: supply 750 chlorine-trifluoride K D
+Supply run ACCEPTED for ship 13 Supply: shipping 750 tonnes of chlorine-trifluoride from port K to port D
+
+--- Hour 224 ---
+EXIT PORT: ship 13 from port AC
+EXIT PORT: ship 33 from port X
+
+--- Hour 225 ---
+EXIT PORT: ship 34 from port AK
+
+--- Hour 226 ---
+SCENARIO message: supply 2872 pizza AI AF
+Supply run ACCEPTED for ship 11 Supply: shipping 2872 tonnes of pizza from port AI to port AF
+
+--- Hour 227 ---
+EXIT PORT: ship 11 from port G
+ENTER PORT: ship 32 at port AI [unloading 3618 tonnes of timber]
+
+--- Hour 228 ---
+ENTER PORT: ship 8 at port O [unloading 4810 tonnes of lock-picking-tools]
+ENTER PORT: ship 21 at port AP [unloading 2977 tonnes of pizza]
+ENTER PORT: ship 23 at port AO [unloading 3683 tonnes of wool]
+SCENARIO message: storm 26 28 6
+SCENARIO message: storm 15 16 10
+
+--- Hour 229 ---
+DISABLED ship ID: 20 -- at position (27, 28)
+RESCUE ASSIGNED: diverting ship 13 to rescue ship 20
+STORM HIT: ship 20 at storm radius 6 - DISABLED
+STORM HIT: ship 28 at storm radius 10 - TOOK DAMAGE
+
+--- Hour 230 ---
+
+--- Hour 231 ---
+
+--- Hour 232 ---
+TASK completed by ship 5: RESCUE task for disabled ship 29
+TASK completed by ship 32: Supply: shipping 3618 tonnes of timber from port K to port AI
+
+--- Hour 233 ---
+TASK completed by ship 8: Supply: shipping 4810 tonnes of lock-picking-tools from port AR to port O
+TASK completed by ship 21: Supply: shipping 2977 tonnes of pizza from port AG to port AP
+TASK completed by ship 23: Supply: shipping 3683 tonnes of wool from port W to port AO
+ENTER PORT: ship 26 at port AA [unloading 1307 tonnes of gold]
+SCENARIO message: storm 24 17 12
+SCENARIO message: W ELUU-
+
+--- Hour 234 ---
+STORM HIT: ship 13 at storm radius 12 - TOOK DAMAGE
+SHIP SUNK: id = 20
+STORM HIT: ship 20 at storm radius 12 - SUNK
+STORM HIT: ship 33 at storm radius 12 - TOOK DAMAGE
+SCENARIO message: supply 3467 cotton AN AL
+Supply run ACCEPTED for ship 8 Supply: shipping 3467 tonnes of cotton from port AN to port AL
+SCENARIO message: supply 4218 steel S F
+Supply run ACCEPTED for ship 17 Supply: shipping 4218 tonnes of steel from port S to port F
+
+--- Hour 235 ---
+RESCUE ABANDONED by ship 13 for disabled ship 20
+EXIT PORT: ship 8 from port O
+EXIT PORT: ship 17 from port BC
+ENTER PORT: ship 29 at port A [loading 1231 tonnes of rice]
+SCENARIO message: storm 35 6 4
+SCENARIO message: ship @.4w:/!b FHwuF8{TE AZ AZ AI <SRy^ G},R_|R(;B p3]Wq8$$(
+
+--- Hour 236 ---
+STORM HIT: ship 26 at storm radius 4 - TOOK DAMAGE
+STORM HIT: ship 32 at storm radius 4 - TOOK DAMAGE
+SCENARIO message: storm 8 20 12
+SCENARIO message: storm 6 35 6
+
+--- Hour 237 ---
+REPAIR at port tasked for ship 32
+STORM HIT: ship 17 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 28 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 31 at storm radius 12 - TOOK DAMAGE
+STORM HIT: ship 34 at storm radius 12 - TOOK DAMAGE
+SCENARIO message: supply 814 steel BB AV
+Supply run ACCEPTED for ship 21 Supply: shipping 814 tonnes of steel from port BB to port AV
+SCENARIO message: supply 1516 chlorine-trifluoride AW AK
+Supply run ACCEPTED for ship 23 Supply: shipping 1516 tonnes of chlorine-trifluoride from port AW to port AK
+
+--- Hour 238 ---
+EXIT PORT: ship 21 from port AP
+EXIT PORT: ship 23 from port AO
+TASK completed by ship 26: Supply: shipping 1307 tonnes of gold from port AK to port AA
+REPAIR at port tasked for ship 31
+SCENARIO message: supply 2421 rice I P
+Supply run ACCEPTED for ship 26 Supply: shipping 2421 tonnes of rice from port I to port P
+
+--- Hour 239 ---
+EXIT PORT: ship 26 from port AA
+SCENARIO message: ship `jtRO
+
+--- Hour 240 ---
+ENTER PORT: ship 11 at port AI [loading 2872 tonnes of pizza]
+ENTER PORT: ship 27 at port AW [unloading 3823 tonnes of rye]
+SCENARIO message: storm 10 32 18
+
+--- Hour 241 ---
+EXIT PORT: ship 29 from port A
+STORM HIT: ship 17 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 21 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 23 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 31 at storm radius 18 - TOOK DAMAGE
+STORM HIT: ship 34 at storm radius 18 - TOOK DAMAGE
+
+--- Hour 242 ---
+REPAIR at port tasked for ship 31
+
+--- Hour 243 ---
+SCENARIO message: supply 803 pizza P AD
+Supply run ACCEPTED for ship 30 Supply: shipping 803 tonnes of pizza from port P to port AD
+SCENARIO message: supply 1212 widgets AC T
+Supply run ACCEPTED for ship 31 Supply: shipping 1212 tonnes of widgets from port AC to port T
+SCENARIO message: ship E,0^`z
+SCENARIO message: supply 4432 unobtainium AL F
+Supply run ACCEPTED for ship 32 Supply: shipping 4432 tonnes of unobtainium from port AL to port F
+
+--- Hour 244 ---
+EXIT PORT: ship 30 from port O
+EXIT PORT: ship 31 from port BF
+EXIT PORT: ship 32 from port AI
+
+--- Hour 245 ---
+TASK completed by ship 27: Supply: shipping 3823 tonnes of rye from port AD to port AW
+SCENARIO message: storm 13 13 4
+
+--- Hour 246 ---
+EXIT PORT: ship 11 from port AI
+ENTER PORT: ship 30 at port P [loading 803 tonnes of pizza]
+
+--- Hour 247 ---
+ENTER PORT: ship 33 at port K [unloading 4535 tonnes of wool]
+
+--- Hour 248 ---
+SCENARIO message: supply 4908 wheat F E
+Supply run ACCEPTED for ship 27 Supply: shipping 4908 tonnes of wheat from port F to port E
+
+--- Hour 249 ---
+EXIT PORT: ship 27 from port AW
+
+--- Hour 250 ---
+ENTER PORT: ship 5 at port H [unloading 510 tonnes of sprockets]
+ENTER PORT: ship 28 at port E [loading 895 tonnes of copper]
+
+--- Hour 251 ---
+SCENARIO message: storm 6A
+SCENARIO message: X AI 35 -41 AH ]g%,H0 69 :C#kjGjW
+
+--- Hour 252 ---
+ENTER PORT: ship 13 at port K [loading 750 tonnes of chlorine-trifluoride]
+EXIT PORT: ship 30 from port P
+TASK completed by ship 33: Supply: shipping 4535 tonnes of wool from port X to port K
+SCENARIO message: supply 3874 unobtainium AV AL
+Supply run ACCEPTED for ship 33 Supply: shipping 3874 tonnes of unobtainium from port AV to port AL
+SCENARIO message: supply 2572 copper AS AK
+Supply run ACCEPTED for ship 35 Supply: shipping 2572 tonnes of copper from port AS to port AK
+
+--- Hour 253 ---
+EXIT PORT: ship 33 from port K
+SCENARIO message: supply 1780 rubber-ducks L AW
+Supply run IGNORED: Supply: shipping 1780 tonnes of rubber-ducks from port L to port AW
+
+--- Hour 254 ---
+SCENARIO message: storm 25 25 4
+SCENARIO message: storm 16 16 2
+SCENARIO message: 61 O
+SCENARIO message: supply 591 gold AV T
+Supply run IGNORED: Supply: shipping 591 tonnes of gold from port AV to port T
+SCENARIO message: supply 1638 lock-picking-tools AL N
+Supply run IGNORED: Supply: shipping 1638 tonnes of lock-picking-tools from port AL to port N
+SCENARIO message: supply 3448 wheat N O
+Supply run IGNORED: Supply: shipping 3448 tonnes of wheat from port N to port O
+SCENARIO message: supply 2398 timber V AN
+Supply run IGNORED: Supply: shipping 2398 tonnes of timber from port V to port AN
+
+--- Hour 255 ---
+TASK completed by ship 5: Supply: shipping 510 tonnes of sprockets from port U to port H
+DISABLED ship ID: 17 -- at position (21, 25)
+RESCUE ASSIGNED: diverting ship 5 to rescue ship 17
+STORM HIT: ship 17 at storm radius 4 - DISABLED
+SCENARIO message: storm 13 14 6
+SCENARIO message: storm 4 25 3
+SCENARIO message: storm 17 7 15
+SCENARIO message: storm 9 21 10
+
+--- Hour 256 ---
+EXIT PORT: ship 5 from port H
+EXIT PORT: ship 28 from port E
+STORM HIT: ship 31 at storm radius 6 - TOOK DAMAGE
+STORM HIT: ship 5 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 13 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 21 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 26 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 27 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 28 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 29 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 30 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 31 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 32 at storm radius 15 - TOOK DAMAGE
+STORM HIT: ship 33 at storm radius 15 - TOOK DAMAGE
+DISABLED ship ID: 34 -- at position (31, 5)
+RESCUE ASSIGNED: diverting ship 13 to rescue ship 34
+STORM HIT: ship 34 at storm radius 15 - DISABLED
+DISABLED ship ID: 21 -- at position (7, 18)
+RESCUE ASSIGNED: diverting ship 11 to rescue ship 21
+STORM HIT: ship 21 at storm radius 10 - DISABLED
+STORM HIT: ship 23 at storm radius 10 - TOOK DAMAGE
+DISABLED ship ID: 31 -- at position (13, 18)
+RESCUE ASSIGNED: diverting ship 8 to rescue ship 31
+STORM HIT: ship 31 at storm radius 10 - DISABLED
+
+--- Hour 257 ---
+EXIT PORT: ship 13 from port K
+
+--- Hour 258 ---
+SCENARIO message: storm 35 28 17
+
+--- Hour 259 ---
+STORM HIT: ship 11 at storm radius 17 - TOOK DAMAGE
+SHIP SUNK: id = 17
+STORM HIT: ship 17 at storm radius 17 - SUNK
+STORM HIT: ship 29 at storm radius 17 - TOOK DAMAGE
+STORM HIT: ship 35 at storm radius 17 - TOOK DAMAGE
+SCENARIO message: storm v\LHA># ."O@|h>63 j=B n8E(T;18t[
+SCENARIO message: supply 4691 lock-picking-tools AD AT
+Supply run ACCEPTED for ship 36 Supply: shipping 4691 tonnes of lock-picking-tools from port AD to port AT
+SCENARIO message: storm -9 ' 8
+
+--- Hour 260 ---
+RESCUE ABANDONED by ship 5 for disabled ship 17
+
+--- Hour 261 ---
+REPAIR at port tasked for ship 5
+
+--- Hour 262 ---
+TASK completed by ship 8: RESCUE task for disabled ship 31
+SCENARIO message: supply 1952 wool I Y
+Supply run IGNORED: Supply: shipping 1952 tonnes of wool from port I to port Y
+
+--- Hour 263 ---
+ENTER PORT: ship 33 at port AV [loading 3874 tonnes of unobtainium]
+
+--- Hour 264 ---
+
+--- Hour 265 ---
+ENTER PORT: ship 5 at port L [repair]
+TASK completed by ship 5: Repaired at port: L
+SCENARIO message: supply 2443 cotton BE G
+Supply run ACCEPTED for ship 5 Supply: shipping 2443 tonnes of cotton from port BE to port G
+SCENARIO message: storm 27 35 2
+
+--- Hour 266 ---
+EXIT PORT: ship 5 from port L
+=== Simulation End ===
