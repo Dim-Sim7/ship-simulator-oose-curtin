@@ -36,4 +36,3 @@ On Windows:
 ```bash
 gradlew.bat run
 ```
->>>>>>> a5c3d2a35fe76e847e4586fccf0fec78752e1c98
